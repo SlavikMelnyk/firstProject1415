@@ -1,0 +1,50 @@
+#mainBlock {
+	width: 1000px;
+	margin: 0 auto;
+}
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #CCCC99;
+}
+header {
+	background-color: blue;
+	height: 60px;
+}
+footer {
+	clear: both;
+	height: 60px;
+	background-color: blue;
+}
+#icon {
+	float: left;
+}
+#matches {
+	float: left;
+	background-color: #555555;
+	width: 200px;
+}
+#content {
+	float: left;
+	margin-left: 100px;
+	background-color: #555555;
+	width: 700px;
+}
+
+li {
+	float: left;
+	padding: 20px;
+	font-size: 14px;
+	list-style: none;
+}
+li:hover {
+	background-color: red;
+}
+ul {
+	overflow: hidden;
+	background-color: #e0e0e0;
+}
+ul li a {
+	text-decoration: none;
+	color: block;
+}
